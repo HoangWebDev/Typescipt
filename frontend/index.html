@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/assets/images/logo.png" />
+    <title>TechPhone</title>
+    <link rel="stylesheet" href="./public/assets/css/style.css" />
+    <link rel="stylesheet" href="./public/assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-----------------------Header--------------------------->
+    <header id="container_header">
+      <!-- Script hiện header -->
+    </header>
+    <!-----------------------Nav--------------------------->
+    <div id="container-wrap">
+      <div id="event">
+        <!-- Show slide Show -->
+      </div>
+      <nav>
+        <!-- Sản phẩm hot -->
+        <div class="nav_container hot">
+          <!-- Script hiện được sản phẩm hot -->
+        </div>
+        <!-- Sản phẩm phổ biến -->
+        <div class="nav_container phobien">
+          <!-- Script hiện sản phẩm phổ biến -->
+        </div>
+      </nav>
+    </div>
+    <!-----------------------Footer--------------------------->
+    <footer>
+      <!-- Script hiện footer -->
+    </footer>
+  </body>
+</html>
+<script type="module" src="./dist/src/index.js"></script>
+<script type="module">
+  import banner from "./dist/src/components/banner.js";
+  banner();
+</script>

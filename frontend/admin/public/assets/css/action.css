@@ -1,0 +1,84 @@
+:root {
+  --cl-white: #fff;
+  --cl-dark: #000;
+  --container-bg: #ededed;
+  --box-sd-bg: 0 0 10px 0px rgb(138 138 138);
+  --box-sd-bg-hover: rgba(100, 100, 111, 0.653) 0px 0px 20px 0px;
+  --danger-cl: rgb(249, 0, 0);
+  --warning-cl: rgb(255, 187, 0);
+  --button: #5c47bd;
+  --button-hover: #ef1e1e;
+  --text-cl: #686868;
+  --text-cl-hover: #9a4cce;
+  --liner-gradiant: #6c54d845, #af69dd68;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  margin-top: 40px;
+}
+main .add_product {
+  margin-top: 20px;
+}
+
+main .add_product form .group_input {
+  margin: 10px;
+}
+
+main .add_product form .group_input label {
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--color-danger);
+}
+
+main .add_product form .group_input input,
+main .add_product form .group_input select {
+  background-color: #eee;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+main .add_product form .group_input img {
+  width: 20%;
+}
+
+main .add_product form .group_input .error {
+  font-size: 15px;
+  color: var(--danger-cl);
+}
+
+main .add_product form .group_btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+main .add_product form .group_btn .btn {
+  border-radius: 20px;
+  border: 1px solid #fea116;
+  background-color: #fea116;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 12px 80px;
+  letter-spacing: 1px;
+  transition: 0.3s ease-in-out;
+}
+main .add_product form .group_btn .btntp {
+  background-color: rgba(225, 225, 225, 0.2);
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+main .add_product form .group_btn .btn:hover {
+  letter-spacing: 2px;
+}
